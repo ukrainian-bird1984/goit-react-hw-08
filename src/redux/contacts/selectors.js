@@ -4,6 +4,7 @@ import { selectNameFilter } from "../filters/selectors";
 export const selectItems = (state) => state.contacts.items;
 export const selectError = (state) => state.contacts.error;
 export const selectLoading = (state) => state.contacts.loading;
+export const selectAllContacts = (state) => state.contacts.selectAll;
 
 export const selectFilteredContacts = createSelector(
   [selectItems, selectNameFilter],
