@@ -1,0 +1,14 @@
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

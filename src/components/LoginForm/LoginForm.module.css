@@ -1,0 +1,35 @@
+/* LoginForm.module.css */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 5px;
+}
+
+.error-text {
+    color: red;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

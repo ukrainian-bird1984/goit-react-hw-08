@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+}
+
+.error-text {
+    color: red;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
