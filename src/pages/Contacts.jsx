@@ -11,7 +11,8 @@ import {
     selectError,
     selectLoading,
   } from "../redux/contacts/selectors";
-  import { TailSpin } from "react-loader-spinner";
+import { TailSpin } from "react-loader-spinner";
+  
 
 const Contacts = () => {
   const dispatch = useDispatch();
