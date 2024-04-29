@@ -3,6 +3,7 @@ import { selectNameFilter } from "../filters/selectors";
 
 export const selectError = (state) => state.contacts.error;
 export const selectLoading = (state) => state.contacts.loading;
+export const selectItems = (state) => state.contacts.items;
 
 export const selectFilteredContacts = createSelector(
   [selectItems, selectNameFilter],
